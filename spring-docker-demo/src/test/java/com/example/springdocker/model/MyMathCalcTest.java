@@ -20,7 +20,7 @@ class MyMathCalcTest {
     public void testDivide(){
         assertEquals(4,mmc.divide(16,4));
         assertNotEquals(4,mmc.divide(4,4));
-
+        assertThrows(Exception.class,(()-> mmc.divide(4,0)));
 
     }
 }
