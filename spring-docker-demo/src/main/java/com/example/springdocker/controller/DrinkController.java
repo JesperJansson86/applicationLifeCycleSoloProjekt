@@ -26,7 +26,7 @@ public class DrinkController {
     }
 
     @GetMapping("/Drinks/cookable")
-    public List<String> getCookableoods() {
-        return service.getCookableDrinks();
+    public List<String> getDrinkableDrinks() {
+        return service.getDrinkableDrinks();
     }
 }
