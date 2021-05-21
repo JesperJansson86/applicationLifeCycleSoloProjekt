@@ -21,6 +21,6 @@ public class Drink {
                 return a*b;
         }
         public double divide(double a, double b){
-                return a/b;
+          return a/b;
         }
 }
